@@ -7,9 +7,4 @@ public class Button : MonoBehaviour {
     {
         Application.LoadLevel("1 -1");
     }
-
-    public void End()
-    {
-        Application.Quit;
-    }
 }
