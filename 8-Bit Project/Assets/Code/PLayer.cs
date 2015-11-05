@@ -50,5 +50,15 @@ public class PLayer : MonoBehaviour
         {
             transform.Translate(Vector3.down * Time.deltaTime * moveSpeed);
         }
+
+        if (Input.GetKey(KeyCode.Q))
+        {
+            transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
+        }
+
+        if (Input.GetKey(KeyCode.E))
+        {
+            transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
+        }
     }
 }
