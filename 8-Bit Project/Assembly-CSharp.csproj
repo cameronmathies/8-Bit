@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\2DPlayer.cs" />
      <Compile Include="Assets\Code\Button.cs" />
      <Compile Include="Assets\Code\PLayer.cs" />
  <Reference Include="UnityEngine.UI">
