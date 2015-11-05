@@ -36,7 +36,7 @@ public class PLayer : MonoBehaviour
         {
             transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             transform.Translate(Vector3.up * Time.deltaTime * moveSpeed);
         }
@@ -51,12 +51,12 @@ public class PLayer : MonoBehaviour
             transform.Translate(Vector3.down * Time.deltaTime * moveSpeed);
         }
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.S))
         {
             transform.Translate(Vector3.back * Time.deltaTime * moveSpeed);
         }
 
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed);
         }
