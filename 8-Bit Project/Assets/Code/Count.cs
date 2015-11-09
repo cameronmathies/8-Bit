@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Count : MonoBehaviour {
 
-    float timeRemaining = 500 .0f; // Start time
+    float timeRemaining = 500f; // Start time
 
     void Update()
     {
