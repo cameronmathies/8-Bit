@@ -6,6 +6,6 @@ public class Button : MonoBehaviour
 
     public void OnClick()
     {
-        Application.LoadLevel("1-1");
+        Application.LoadLevel("characters");
     }
 }
