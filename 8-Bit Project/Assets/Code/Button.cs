@@ -8,4 +8,9 @@ public class Button : MonoBehaviour
     {
         Application.LoadLevel("characters");
     }
+    public void mario()
+    {
+        Application.LoadLevel("1-1");
+    }
+
 }
