@@ -12,5 +12,9 @@ public class Button : MonoBehaviour
     {
         Application.LoadLevel("1-1");
     }
+    public void luigi()
+    {
+        Application.LoadLevel("1-2");
+    }
 
 }
