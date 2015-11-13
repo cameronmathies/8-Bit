@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Code\Button.cs" />
      <Compile Include="Assets\Code\Count.cs" />
+     <Compile Include="Assets\Code\EKill.cs" />
      <Compile Include="Assets\Code\Patrol.cs" />
      <Compile Include="Assets\Code\RPlayer.cs" />
  <Reference Include="UnityEngine.UI">
