@@ -4,8 +4,8 @@ using System.Collections;
 public class EKill : MonoBehaviour {
     public GameObject Goomba;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider collision)
     {
-        Destroy(other.gameObject);
+        DestroyObject(collision.gameObject);
     }
 }
