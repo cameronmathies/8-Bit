@@ -6,6 +6,9 @@ public class EKill : MonoBehaviour {
 
     void OnTriggerEnter(Collider collision)
     {
-        DestroyObject(collision.gameObject);
+        if (collision.tag == "Enemy")
+        {
+            DestroyObject(collision.gameObject);
+        }
     }
 }
